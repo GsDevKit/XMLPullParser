@@ -5,4 +5,4 @@ skipUpTo: delimiter
 	[self atEnd or: [(nextChar := self nextChar) == delimiter]] whileFalse: [].
 	nextChar == delimiter 
 		ifFalse: 
-			[self parseError: 'XML no delimiting ' , delimiter printString , ' found']
+			[XPPStructureException raiseSignal: 'XML no delimiting ' , delimiter printString , ' found']

@@ -1,3 +1,3 @@
 private
 errorExpected: expectedString
-	self parseError: 'Expected ', expectedString
+	XPPStructureException raiseSignal: 'Expected ', expectedString

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'XMLPullParser'!
+SystemOrganization addCategory: 'XMLPullParser'!

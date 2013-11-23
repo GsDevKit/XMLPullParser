@@ -1,5 +1,4 @@
 testing
 testParsingError
 
-	self should: [(XMLPullParser parse: '<body') next] raise: XMLPullParsingError .
-	
+	self should: [(XMLPullParser parse: '<body') next] raise: XPPStructureException	
