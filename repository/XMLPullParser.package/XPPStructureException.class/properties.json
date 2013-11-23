@@ -1,0 +1,14 @@
+{
+	"category" : "XMLPullParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "XPPStructureException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

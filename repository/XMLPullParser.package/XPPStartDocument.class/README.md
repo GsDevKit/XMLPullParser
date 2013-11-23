@@ -1,0 +1,1 @@
+XPPStartDocument is the event raised when we arrive at the start of a document.

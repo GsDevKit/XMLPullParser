@@ -1,0 +1,29 @@
+{
+	"category" : "XMLPullParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CharEscapes",
+		"DigitTable",
+		"LiteralChars",
+		"NameDelimiters",
+		"SeparatorTable" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"stream",
+		"current",
+		"nestedStreams",
+		"entities",
+		"externalEntities",
+		"parameterEntities",
+		"parsingMarkup",
+		"markedPosition",
+		"peekChar",
+		"nameBuffer",
+		"attributeBuffer",
+		"eventQueue" ],
+	"name" : "XMLPullParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

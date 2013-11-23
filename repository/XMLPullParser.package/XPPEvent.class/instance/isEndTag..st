@@ -1,0 +1,3 @@
+testing
+isEndTag: aStringOrNodeTag
+	^false

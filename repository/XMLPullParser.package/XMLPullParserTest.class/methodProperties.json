@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCDATA" : "kdt 5/27/2009 12:45",
+		"testCharacterReferences" : "kdt 5/27/2009 12:49",
+		"testDoubleTag" : "kdt 4/7/2008 22:26",
+		"testEmpty" : "kdt 4/7/2008 21:19",
+		"testEscapes" : "kdt 4/8/2008 08:10",
+		"testParsingError" : "JohanBrichau 11/23/2013 08:43",
+		"testPerson" : "kdt 4/8/2008 06:41",
+		"testSingleSelfClosingTag" : "kdt 4/7/2008 22:23",
+		"testSingleTag" : "kdt 4/7/2008 22:25",
+		"testTextExtractionFirstLevel" : "StephaneDucasse 10/27/2013 20:45",
+		"testTextExtractionFirstLevel2" : "StephaneDucasse 10/27/2013 20:51" } }

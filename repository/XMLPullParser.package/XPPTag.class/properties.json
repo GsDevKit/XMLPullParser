@@ -1,0 +1,16 @@
+{
+	"category" : "XMLPullParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"attributes",
+		"type" ],
+	"name" : "XPPTag",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

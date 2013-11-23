@@ -1,0 +1,14 @@
+{
+	"category" : "XMLPullParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "XPPEndTag",
+	"pools" : [
+		 ],
+	"super" : "XPPTagEvent",
+	"type" : "normal" }
