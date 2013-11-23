@@ -1,6 +1,7 @@
 XMLPullParser
 =============
-This is a port of the XMLPullParser code found on [http://www.smalltalkhub.com/#!/~hernan/XMLPullParser/]
+This is a port of the XMLPullParser code found on http://www.smalltalkhub.com/#!/~hernan/XMLPullParser/ .
+
 XMLPullParser is a streaming XML parser. Instead of building a DOM tree, the parser streams over "events" (start tag, text, end tag) on demand. For more information on the technique in general, see xmlpull.org
 
 This code is a mashup of Antony Blakey's work for VisualWorks (ported by permission) together with the tokenizer from YAXO.
