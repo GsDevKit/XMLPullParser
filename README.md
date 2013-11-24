@@ -4,12 +4,12 @@ XMLPullParser is a streaming XML parser. Instead of building a DOM tree, the par
 
 ## Loading into GemStone
 
-    ```Smalltalk
-    Metacello new
-      baseline: 'XMLPullParser';
-      repository: 'github://glassdb/XMLPullParser/repository';
-      load.
-	```
+```Smalltalk
+Metacello new
+  baseline: 'XMLPullParser';
+  repository: 'github://glassdb/XMLPullParser/repository';
+  load.
+```
 	
 ## License
 
