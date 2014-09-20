@@ -5,4 +5,4 @@ testDecimalEntity
 	parser := XMLPullParser parse: '
 		<tag contents="one&#10;two" />'.
 	
-	self assert: (parser next at: #contents) equals: (Character lf join: #(one two))
+	self assert: (parser next at: #contents) equals: ('one', Character lf asString,'two')
