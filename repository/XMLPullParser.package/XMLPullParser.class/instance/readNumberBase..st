@@ -4,8 +4,8 @@ readNumberBase: base
 
 	| value digit |
 	base = 10 ifFalse: [	| numberString | 
-		numberString := self nextUpTo: $;.
-		self stream skip: -1.
+		numberString := self nextUpToAll: ';'.
+		stream skip: -1.
 		^Integer readFrom: numberString asUppercase readStream base: base. 
 	].
 

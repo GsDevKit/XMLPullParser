@@ -4,12 +4,19 @@
 	"instance" : {
 		"testCDATA" : "kdt 5/27/2009 12:45",
 		"testCharacterReferences" : "kdt 5/27/2009 12:49",
+		"testDecimalEntity" : "JohanBrichau 09/20/2014 05:01",
 		"testDoubleTag" : "kdt 4/7/2008 22:26",
 		"testEmpty" : "kdt 4/7/2008 21:19",
 		"testEscapes" : "kdt 4/8/2008 08:10",
-		"testParsingError" : "JohanBrichau 11/23/2013 09:57",
+		"testHexEntity" : "JohanBrichau 09/20/2014 05:00",
+		"testIncludesTag" : "HernanMoralesDurand 7/29/2014 12:30",
+		"testIsTag" : "HernanMoralesDurand 7/29/2014 12:31",
+		"testParsingError" : "SergeStinckwich 6/8/2014 22:51",
+		"testPeekText" : "HernanMoralesDurand 7/29/2014 12:31",
 		"testPerson" : "kdt 4/8/2008 06:41",
 		"testSingleSelfClosingTag" : "kdt 4/7/2008 22:23",
 		"testSingleTag" : "kdt 4/7/2008 22:25",
+		"testTagName" : "HernanMoralesDurand 7/29/2014 12:31",
 		"testTextExtractionFirstLevel" : "StephaneDucasse 10/27/2013 20:45",
-		"testTextExtractionFirstLevel2" : "StephaneDucasse 10/27/2013 20:51" } }
+		"testTextExtractionFirstLevel2" : "StephaneDucasse 10/27/2013 20:51",
+		"testTextWhileNotTag" : "HernanMoralesDurand 7/29/2014 12:31" } }
