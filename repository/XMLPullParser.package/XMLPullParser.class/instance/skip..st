@@ -11,5 +11,5 @@ skip: tagName
 				ifFalse: 
 					[event isStartTag 
 						ifTrue: [self skipAny]
-						ifFalse: [XPPStructureException raiseSignal: 'Unexpected element']]].
+						ifFalse: [XPPStructureException signal: 'Unexpected element']]].
 	self consumeEndTag: tagName

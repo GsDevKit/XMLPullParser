@@ -7,5 +7,5 @@ nextTrimmedBlanksUpTo: delimiter
 		whileFalse: [nextChar == $  ifFalse: [resultStream nextPut: nextChar]].
 	nextChar == delimiter 
 		ifFalse: 
-			[XPPStructureException raiseSignal: 'XML no delimiting ' , delimiter printString , ' found'].
+			[XPPStructureException signal: 'XML no delimiting ' , delimiter printString , ' found'].
 	^ resultStream contents

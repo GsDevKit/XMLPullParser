@@ -10,5 +10,4 @@ testTextExtractionFirstLevel
       output := String new writeStream.
   	[ xpp next isEndDocument ] whileFalse: [
    	    xpp isText ifTrue: [ output nextPutAll: xpp text ]].
-  	self assert: output contents equals: 'blahaaabbbccc'. 
-	
+  	self assert: output contents equals: 'blahaaabbbccc'.

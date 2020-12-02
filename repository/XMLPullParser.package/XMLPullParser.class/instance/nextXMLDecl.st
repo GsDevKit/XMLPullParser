@@ -12,4 +12,3 @@ nextXMLDecl
 		ifFalse: [self errorExpected: '> expected.'].
 	(attributes includesKey: 'encoding') ifTrue: [self streamEncoding: (attributes at: 'encoding')].
 	"self handleXMLDecl: attributes namespaces: namespaces"
-	
