@@ -10,4 +10,4 @@ serializeUntilEndTagTo: serializer
 				ifFalse: 
 					[event isStartTag 
 						ifTrue: [self serializeTagTo: serializer]
-						ifFalse: [XPPStructureException raiseSignal: 'Unexpected element']]]
+						ifFalse: [XPPStructureException signal: 'Unexpected element']]]

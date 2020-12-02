@@ -6,5 +6,5 @@ nextUpToAll: delimitingString
 	 stream skip: delimitingString size negated.
 	( stream next: delimitingString size) = delimitingString 
 		ifFalse: 
-			[XPPStructureException raiseSignal: 'XML no delimiting ' , delimitingString printString , ' found'].
+			[XPPStructureException signal: 'XML no delimiting ' , delimitingString printString , ' found'].
 	^ string

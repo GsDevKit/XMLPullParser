@@ -1,4 +1,4 @@
 asserting event types
 mustBeText
 	self isText
-		ifFalse: [XPPStructureException raiseSignal: 'Expected text']
+		ifFalse: [XPPStructureException signal: 'Expected text']

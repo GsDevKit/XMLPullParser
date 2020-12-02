@@ -1,4 +1,4 @@
 asserting event types
 mustBeStartTag
 	self isStartTag
-		ifFalse: [XPPStructureException raiseSignal: 'Expected start tag']
+		ifFalse: [XPPStructureException signal: 'Expected start tag']

@@ -1,3 +1,4 @@
 tag-based api
 skipWhileAny
-	[self isStartTag] whileTrue: [self skipAny]
+
+	[ self isStartTag ] whileTrue: [ self skipAny ]

@@ -1,3 +1,4 @@
 tag-based api
 textIfAny
-	^self ifAnyTake: [self text] else: [ '' ].
+
+	^ self ifAnyTake: [ self text ] else: [ '' ].

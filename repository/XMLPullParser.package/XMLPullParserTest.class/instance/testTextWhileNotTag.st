@@ -20,5 +20,3 @@ testTextWhileNotTag
 	self assert: (parser isStartTag: myFinalTag).
 	self assert: nodes notEmpty.
 	self assert: (nodes hasEqualElements: {'id' ->'27' . 'name'->'Kent Beck'}).
-
-	
