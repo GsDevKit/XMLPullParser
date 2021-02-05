@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'XMLPullParser',
+      #directory : 'repository',
+      #load : [ 'default' ],
+      #onConflict : #useIncoming,
+      #platforms : [ #gemstone ]
+    }
+  ]
+}
