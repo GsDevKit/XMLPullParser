@@ -1,3 +1,4 @@
 tag-based api
 textIf: tagName
-	^self if: tagName take: [self text] else: [ '' ].
+
+	^ self if: tagName take: [ self text ] else: [ '' ].

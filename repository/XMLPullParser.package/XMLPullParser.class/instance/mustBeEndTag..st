@@ -1,4 +1,4 @@
 asserting event types
 mustBeEndTag: tagName
 	(self isEndTag: tagName)
-		ifFalse: [XPPStructureException raiseSignal: 'Expected end tag: ', tagName]
+		ifFalse: [XPPStructureException signal: 'Expected end tag: ', tagName]

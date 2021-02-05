@@ -1,4 +1,4 @@
 asserting event types
 mustBeStartDocument
 	self isStartDocument 
-		ifFalse: [XPPStructureException raiseSignal: 'Expected start of document']
+		ifFalse: [XPPStructureException signal: 'Expected start of document']
