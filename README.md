@@ -1,4 +1,4 @@
-XMLPullParser [![](https://travis-ci.org/GsDevKit/XMLPullParser.svg?branch=master)](https://travis-ci.org/GsDevKit/XMLPullParser)
+XMLPullParser [![](https://github.com/GsDevKit/XMLPullParser/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/GsDevKit/XMLPullParser/actions/workflows/ci.yml)
 =============
 XMLPullParser is a streaming XML parser. Instead of building a DOM tree, the parser streams over "events" (start tag, text, end tag) on demand. For more information on the technique in general, see [xmlpull.org](xmlpull.org). This is a port of the XMLPullParser code from https://github.com/pharo-contributions/XML-XMLPullParser to Gemstone/GLASS.
 
